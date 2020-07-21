@@ -31,7 +31,7 @@ Crie um arquivo helloWorld.ts com o seguinte código:
 Apesar de usarmos uma extensão **.ts** no arquivo, esse código é apenas JavaScript.
 Na linha de comando, execute o compilador TypeScript:
 ```shell
-  tsc greeter.ts
+  tsc helloWorld.ts
 ```
 
 Pronto! Seu primeiro código em TypeScript escrito e transpilado para JavaScript 🎉
