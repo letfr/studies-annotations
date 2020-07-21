@@ -3,6 +3,3 @@ Olá! Esse repositório é destinado as minhas anotações de estudos com intuit
 
 ## Índices
 * [Typescript](https://github.com/letfr/studies-annotations/typescript)
-
-!Gif gato 
-(https://gph.is/g/EJgkj7e)
