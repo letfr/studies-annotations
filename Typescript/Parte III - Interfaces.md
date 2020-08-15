@@ -12,7 +12,7 @@ interface Person {
   gender: Gender;
   heigth: number;
   weight: number;
-  hairColor?: () => string;
+  hairColor?: string;
 };
 
 const Leticia: Person = {
@@ -39,9 +39,19 @@ const Leticia: Person = {
 };
 ```
 
-A propriedade **hairColor** foi definida como opcional *(hairColor?: () => string;)*, mas teremos um erro na propriedade **gender** que está faltando:
+A propriedade **hairColor** foi definida como opcional com o símbolo de interrogação *(hairColor?: string;)*, mas teremos um erro na propriedade **gender** que está faltando:
 ```shell
   Property 'gender' is missing in type '{ heigth: number; weight: number; }' but required in type 'Person'.
 ```
 
-**[WIP]**
+### Implementando interfaces em classes
+
+Podemos utilizar a interface em uma classe esperando que ela atenda a um contrato específico simplesmente utilizando a palavra **implements** seguido do nome da interface:
+```typescript
+  class CreatePerson implements Person {
+    gender: 'Female',
+    heigth: 160,
+    weight: '50kg',
+  }
+```
+
