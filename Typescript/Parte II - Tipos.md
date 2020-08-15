@@ -5,7 +5,6 @@ Os tipos nos ajudam a melhorar a qualidade e a compreensibilidade do código, po
 
 ### Tipos básicos
 
-<<<<<<< HEAD
 - Boolean  
   O tipo de dado mais básico, sendo apenas **true** ou **false**.
   ```typescript
@@ -61,18 +60,6 @@ Os tipos nos ajudam a melhorar a qualidade e a compreensibilidade do código, po
 
     saveBook({ author: 'Carl Sagan', name: 'Cosmos', publicationYear: 1980 });
   ```  
-=======
-Os tipos básicos são: 
-- Boolean: O tipo de dado mais básico, sendo apenas **true** ou **false**.
-- Number: Suporta decimais, hexadecimais, binários e octais.
-- String: Dados de texto. Pode ser utilizado aspas duplas **(")**, aspas simples **(')** ou template string **(`)** para envolver os dados da string.
-- Array: É o tipo de matriz. Podem ser gravados de duas maneiras: utilizando **[]** ou **Array<tipoDoElement>**.
-- Tuple: Permite definir uma matriz com um número fixo de elementos cujos tipos são conhecidos, mas não precisam ser os mesmos. 
-- Enum: Permite atribuir nomes mais amigáveis a conjuntos de valores numéricos. Por padrão, os enums começam a numerar seus membros a partir de 0. Você pode alterar isso definindo manualmente o valor de um de seus membros.
-- Any: Pode ser utilizados quando não conhecemos o tipo de variável que podemos receber. Um exemplo disso é quando recebemos esse valor de uma biblioteca terceira. Nesses casos, queremos desativar a verificação de tipo e deixar que os valores passem pelas verificações em tempo de compilação sem erros.
-- Void: Representa a ausência de ter qualquer tipo. Geralmente é usado como o tipo de retorno de funções que não retornam um valor.
-- Object: Representa o tipo não primitivo, ou seja, qualquer coisa que não seja *number, string, boolean, bigint, symbol, null, or undefined*.
->>>>>>> 03198582fe88b18f4ed55e7b14f796d3f4882559
 
 ## Tipando variáveis em Typescript 
 
@@ -97,8 +84,4 @@ Ainda assim, o arquivo JavaScript será criado e, quando executado exibirá no c
   An argument for 'age' was not provided.
 ```
 Se executarmos o arquivo Javascript gerado, o seguinte será exibido no console:
-<<<<<<< HEAD
 > **Hi! My name is Leticia and I'm undefined.**
-=======
-> **Hi! My name is Leticia and I'm undefined.**
->>>>>>> 03198582fe88b18f4ed55e7b14f796d3f4882559
