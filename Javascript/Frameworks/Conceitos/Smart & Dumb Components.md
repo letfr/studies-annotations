@@ -1,5 +1,7 @@
 # Smart & Dumb Components
 
+Smart & Dumb Components é uma abordagem que sugere que os componentes de uma aplicação sejam dividos em duas categorias, os **smart components** que seriam os **componentes inteligentes** que lidam com *como as coisas funcionam*, e os **dumb components** que seriam os **componentes burros** quem focam em *como as coisas se parecem*. A ideia original de dividir os componentes dessa forma foi pensada por Dan Abramov, que mais tarde revisou o conceito para serem chamados de **container and presentational components**. Este conceito foi adotado e expandido pela comunidade React.
+
 ## Dumb Components
 O *"Dumb component"* também conhecido como *"Presentational component"* tem a responsabilidade única de apresentar algo ao DOM. Nada mais. Esses componentes apenas renderizam as props que são passadas no DOM e não tem nenhum state interno para administrar. Esse tipo de componente é altamente reutilizável, uma vez que, você só precisa enviar as props e poderá utilizar o mesmo componente em diversas partes do código com conteúdo totalmente diferente.
 
