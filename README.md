@@ -3,3 +3,4 @@ Olá! Esse repositório é destinado as minhas anotações de estudos com intuit
 
 ## Índice
 * [Typescript](https://github.com/letfr/studies-annotations/tree/master/Typescript)
+* [Javascript](https://github.com/letfr/studies-annotations/tree/master/Javascript)
