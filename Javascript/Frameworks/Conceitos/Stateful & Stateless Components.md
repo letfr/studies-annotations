@@ -1,5 +1,6 @@
 # Stateful & Stateless Components
 
+Nos frameworks javascript as aplicações são feitas de **componentes**. Os componentes permitem que você possa dividir a UI em partes independentes, reutilizáveis e pensar em cada parte isoladamente. Você pode passar diferentes propriedades para um componente, que irá utilizar essas props e gerar uma saída. Esses componentes podem conter scoped states (estados que ficam dentro do componente), funções, lifecycle hooks e outras coisas.
 Basicamente, o componente **stateful** contém um objeto state scoped e o **stateless** não. Esse conceito é relacionado ao de [Smart & Dumb Components](Smart%20&%20Dumb%20Components.md).
 
 ## Stateful Component
@@ -20,6 +21,6 @@ Algumas das características de um *stateless component* incluem:
 - Não realiza requests de dados
 - Recebem dados por binding
 - Emite dados através de event callbacks
-- Renderiza outros componentes
+- Pode renderizar outros componentes
   
 **[WIP]**
