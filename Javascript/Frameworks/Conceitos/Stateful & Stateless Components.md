@@ -20,5 +20,3 @@ Algumas das características de um *stateless component* incluem:
 - Recebem dados por binding
 - Emite dados através de event callbacks
 - Pode renderizar outros componentes
-  
-**[WIP]**
