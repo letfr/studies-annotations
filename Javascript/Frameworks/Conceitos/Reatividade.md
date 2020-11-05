@@ -25,7 +25,7 @@ Os conceitos essenciais em RxJS que resolvem o gerenciamento de eventos assíncr
 - **Schedulers**: são despachantes centralizados para controlar a simultaneidade, permitindo-nos coordenar quando a computação acontece, por exemplo, setTimeout ou requestAnimationFrame ou outros.
 
 
-## Mas e aí, vale a pena usar reatividade?
+## Mas e aí, vale a pena usar programação reativa?
 
 Esse pattern pode ser muito útil nos dias de hoje! Estamos em um momento no qual temos um grande fluxo de dados em nossas aplicações. Os usuários querem os dados com rapidez. As aplicações assíncronas desempenham um importante papel nesse contexto. A programação reativa vai tornar o trabalho assíncrono com fluxo de dados mais simples, uma threading complexa mais fácil de lidar, além de utilizar operadores que facilitam e tornam o código limpo e legível. 
 
