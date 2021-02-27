@@ -10,8 +10,6 @@ Algumas das características de um *stateful component* incluem:
 - Conduz mudanças de estado por meio de funções
 - Fornece dados
 - Tem conhecimento vivo do estado atual
-- É informado por componentes stateless quando algo precisa ser alterado
-- Pode se comunicar com dependências externas
 - Renderiza componentes filhos 
 
 ## Stateless Component
@@ -22,5 +20,3 @@ Algumas das características de um *stateless component* incluem:
 - Recebem dados por binding
 - Emite dados através de event callbacks
 - Pode renderizar outros componentes
-  
-**[WIP]**
