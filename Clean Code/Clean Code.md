@@ -33,8 +33,8 @@ Existem algumas ferramentas que podem te ajudar no momento de escrever código l
 
 Alguns artigos que podem te ajudar na hora de escrever um código limpo:
 
-[TDD changed my life](https://medium.com/javascript-scene/tdd-changed-my-life-5af0ce099f80)
-[These tools will help you write clean code](https://medium.com/free-code-camp/these-tools-will-help-you-write-clean-code-da4b5401f68e)
-[S.O.L.I.D: The first five principles of object oriented design](https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
+- [TDD changed my life](https://medium.com/javascript-scene/tdd-changed-my-life-5af0ce099f80)
+- [These tools will help you write clean code](https://medium.com/free-code-camp/these-tools-will-help-you-write-clean-code-da4b5401f68e)
+- [S.O.L.I.D: The first five principles of object oriented design](https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
 
 **[WIP]**
